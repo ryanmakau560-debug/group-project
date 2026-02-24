@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>About Events Platform</title>
+    <style>
+        :root{
+            --text:#283618;
+            --bg:#FEFAE0;
+        }
+
+        body{
+            font-family:Arial;
+            margin:0;
+            text-align:center;
+            background:var(--bg);
+            color:var(--text);
+        }
+
+        section{padding:40px}
+        .flex{display:flex;justify-content:center;gap:20px}
+        .card{border:1px solid #ccc;padding:15px;width:180px}
+        .stats{background:var(--text);color:white}
+        .stats h2, .stats p{
+    color:white;
+}
+        h1,h2,h3{color:var(--text)}
+
+        @media(max-width:600px){
+            .flex{flex-direction:column;align-items:center}
+        }
+    </style>
+</head>
+<body>
+
+<section>
+    <h1>About Our Events Platform</h1>
+    <p>We help people discover and book amazing events easily.</p>
+</section>
+
+<section class="flex">
+    <div class="card">
+        <h3>Mission</h3>
+        <p>Make event discovery simple for everyone.</p>
+    </div>
+    <div class="card">
+        <h3>Vision</h3>
+        <p>Become a leading global event platform.</p>
+    </div>
+</section>
+
+<section>
+    <h2>How It Works</h2>
+    <div class="flex">
+        <div>
+            <h3>1. Search</h3>
+            <p>Find events by category.</p>
+        </div>
+        <div>
+            <h3>2. Book</h3>
+            <p>Register quickly and easily.</p>
+        </div>
+        <div>
+            <h3>3. Attend</h3>
+            <p>Enjoy your event experience.</p>
+        </div>
+    </div>
+</section>
+
+<section>
+    <h2>Developers</h2>
+    <div class="flex">
+        <div>
+            <h3>Ryan Makau</h3>
+            <p>Frontend Developer</p>
+        </div>
+        <div>
+            <h3>Isaac</h3>
+            <p>Frontend Developer</p>
+        </div>
+    </div>
+</section>
+
+<section class="flex stats">
+    <div>
+        <h2>500+</h2>
+        <p>Events</p>
+    </div>
+    <div>
+        <h2>10K+</h2>
+        <p>Users</p>
+    </div>
+    <div>
+        <h2>50+</h2>
+        <p>Organizers</p>
+    </div>
+</section>
+
+</body>
+</html>
